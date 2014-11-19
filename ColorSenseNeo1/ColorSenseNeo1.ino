@@ -62,7 +62,7 @@ Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_24MS, TCS3472
 //==========================================
 void setup() {
   Serial.begin(9600);
-  Serial.println("Colorama...");
+  Serial.println("Put a color card over the sensor...");
   
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
